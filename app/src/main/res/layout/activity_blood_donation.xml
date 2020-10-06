@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodDonationActivity"
+    android:background="@color/colorPrimary">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Age"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Full Address"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="A+"
+            android:background="@drawable/bloodgroup"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="A-"
+            android:background="@drawable/bloodgroup"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="AB"
+            android:background="@drawable/bloodgroup"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="o"
+            android:background="@drawable/bloodgroup"
+            android:layout_marginRight="16dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bloodgroup"
+            android:text="B+"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_corner_green"
+        android:layout_marginBottom="32dp"/>
+</LinearLayout>
+</ScrollView>

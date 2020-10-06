@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical"
+        android:background="@drawable/list_doctor">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="3dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hname"
+                android:textColor="@color/colorPrimary"
+                android:text="Ravi Shankar"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone_icon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hrname"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:text="9898989898"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hphone"
+            android:text="Profession"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnhcall"
+            android:text="Call Now"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_corner_blue"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "614339544153",
+    "firebase_url": "https://healthassistantapp-4a79b.firebaseio.com",
+    "project_id": "healthassistantapp-4a79b",
+    "storage_bucket": "healthassistantapp-4a79b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614339544153:android:db9dce57f2c05dc8325d48",
+        "android_client_info": {
+          "package_name": "com.example.blood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614339544153-qrpg6eleqcrin1hani8u2f60aqvt2oku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ30dY8J9Vct8Hsnvyk1-9A0hRa5F4hfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614339544153-qrpg6eleqcrin1hani8u2f60aqvt2oku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
