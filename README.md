@@ -1,7 +1,7 @@
 # Health_Assistant-Appp
 
 Its a health assistant app for android platform .
-
+==============================================================================================================================================================
 
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/38450418/95230316-5d76b080-081f-11eb-83d1-dc7f9f1131ac.png)
